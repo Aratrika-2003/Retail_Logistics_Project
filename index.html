@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Pincode Verification Services</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Verify pincodes at ease!</h1>
+            <div id="merchantInput">
+                <!-- <label for="merchantID">Merchant ID:</label>
+                <input type="text" id="merchantID" placeholder="Enter Merchant ID"> -->
+                <label for="serviceablePincodes">Serviceable Pincodes (comma-separated):</label>
+                <input type="text" id="serviceablePincodes" placeholder="Enter Serviceable Pincodes">
+                <button onclick="updateServiceability()">Update Serviceability</button>
+            </div>
+            <div id="buyerInput">
+                <label for="pincode">Enter Pincode for Verification:</label>
+                <input type="text" id="pincode" placeholder="Enter Pincode">
+                <button onclick="verifyServiceability()">Verify Serviceability</button>
+            </div>
+            <div id="output"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
